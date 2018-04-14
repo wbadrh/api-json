@@ -1,0 +1,18 @@
+{
+    "domain": {
+        "scheme": "http",
+        "host": "api-json.test"
+    },
+    "routes": [
+        {
+            "method": "GET",
+            "route": "/",
+            "controller": "wbadrh\\JSON_API\\Controller::response"
+        },
+        {
+            "method": "GET",
+            "route": "/{name}",
+            "controller": "wbadrh\\JSON_API\\Controller::response_args"
+        }
+    ]
+}
